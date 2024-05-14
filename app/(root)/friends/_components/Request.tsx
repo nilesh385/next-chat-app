@@ -40,7 +40,7 @@ const Request = ({ id, imageUrl, username, email }: Props) => {
           <p className="text-xs text-muted-foreground truncate">{email}</p>
         </div>
       </div>
-      <div className="flex-items-center gap-2">
+      <div className="flex items-center gap-2">
         <Button
           size={"icon"}
           onClick={() => {
